@@ -21,20 +21,20 @@ var $ = require('jquery');
 
 var angular = require('camunda-bpm-sdk-js/vendor/angular'),
   template = require('./cam-widget-header.html?raw'),
-  logo = require('./logo-2020-round.svg?raw');
+  logo = require('./logo.svg?raw');
 
 var apps = {
   welcome: {
-    label: 'Welcome'
+    label: 'Chào mừng'
   },
   admin: {
-    label: 'Admin'
+    label: 'Quản trị viên'
   },
   cockpit: {
-    label: 'Cockpit'
+    label: 'Bảng điều khiển'
   },
   tasklist: {
-    label: 'Tasklist'
+    label: 'Danh sách nhiệm vụ'
   }
 };
 

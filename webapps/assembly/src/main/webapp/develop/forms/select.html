@@ -16,20 +16,20 @@
 
     <!-- choice list and label -->
     <div class="form-group">
-      <label for="choiceList" class="control-label">Choose</label>
+      <label for="choiceList" class="control-label">Chọn</label>
       <select ng-change="selectionChanged(choice)" class="form-control" name="choice" required ng-model="choice">
-        <option value="WS Generic">WebService Generic</option>
-        <option value="WS Generated">WebService Generated</option>
+        <option value="WS Generic">Dịch vụ web chung</option>
+        <option value="WS Generated">Dịch vụ web được tạo tự động</option>
       </select>
     </div>
 
     <!-- validation messages for choice -->
     <p ng-if="variablesForm.choice.$invalid" style="color: red">
-      Please select a method.
+      Vui lòng chọn một phương thức.
     </p>
 
     <p ng-if="variablesForm.choice.$valid">
-      You may proceed.
+      Bạn có thể tiếp tục.
     </p>
 
     <div style="display: none;">
