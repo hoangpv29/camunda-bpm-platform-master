@@ -56,23 +56,23 @@ export default {
   shortcuts: {
     claimTask: {
       key: 'ctrl+alt+c',
-      description: 'claims the currently selected task'
+      description: 'nhận nhiệm vụ đang được chọn'
     },
     focusFilter: {
       key: 'ctrl+shift+f',
-      description: 'set the focus to the first filter in the list'
+      description: 'di chuyển con trỏ đến bộ lọc đầu tiên trong danh sách.'
     },
     focusList: {
       key: 'ctrl+alt+l',
-      description: 'sets the focus to the first task in the list'
+      description: 'di chuyển con trỏ đến nhiệm vụ đầu tiên trong danh sách'
     },
     focusForm: {
       key: 'ctrl+alt+f',
-      description: 'sets the focus to the first input field in a task form'
+      description: 'di chuyển con trỏ đến ô nhập liệu đầu tiên trong biểu mẫu nhiệm vụ'
     },
     startProcess: {
       key: 'ctrl+alt+p',
-      description: 'opens the start process modal dialog'
+      description: 'mở hộp thoại bắt đầu quy trình'
     }
   }
 };
