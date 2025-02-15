@@ -1,0 +1,11 @@
+{
+  "name": "docs",
+  "version": "7.23.0-SNAPSHOT",
+  "private": true,
+  "scripts": {
+    "build": "node build"
+  },
+  "dependencies": {
+    "redoc": "2.1.1"
+  }
+}
