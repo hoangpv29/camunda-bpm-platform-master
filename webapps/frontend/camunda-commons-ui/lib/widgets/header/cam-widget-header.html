@@ -12,12 +12,13 @@
     <span></span>
   </button>
 
+  <!-- title="{{ brandName }} {{ appName }}"> -->
   <a class="navbar-brand app-banner"
      ng-if="authentication.name"
      href="#/"
-     title="{{ brandName }} {{ appName }}">
+     title="{{ appName }}">
      <span ng-bind-html="logo" class="brand-logo"></span>
-     <span class="brand-name" ng-cloak>{{ brandName }}</span>
+     <span class="brand-name" ng-cloak>{{ appName }}</span>
   </a>
 
   <div class="small-screen-warning">

@@ -118,7 +118,7 @@ export function init(pluginDependencies) {
     'configuration',
     require('./../../../common/scripts/services/cam-configuration')(
       window.camWelcomeConf,
-      'Welcome'
+      'Chào Mừng'
     )
   );
   appNgModule.controller('WelcomePage', require('./controllers/welcome-page'));

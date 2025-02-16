@@ -141,7 +141,7 @@ export function init(pluginDependencies) {
     'configuration',
     require('./../../../common/scripts/services/cam-configuration')(
       window.camTasklistConf,
-      'Tasklist'
+      'Danh Sách Nhiệm Vụ'
     )
   );
 

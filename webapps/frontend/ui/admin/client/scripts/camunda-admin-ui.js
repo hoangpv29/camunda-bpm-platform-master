@@ -139,7 +139,7 @@ export function init(pluginDependencies) {
     'configuration',
     require('./../../../common/scripts/services/cam-configuration')(
       window.camAdminConf,
-      'Admin'
+      'Trang Chủ'
     )
   );
 

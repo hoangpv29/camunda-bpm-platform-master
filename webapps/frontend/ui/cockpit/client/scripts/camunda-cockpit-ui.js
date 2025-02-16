@@ -158,7 +158,7 @@ export function init(pluginDependencies) {
     'configuration',
     require('./../../../common/scripts/services/cam-configuration')(
       window.camCockpitConf,
-      'Cockpit'
+      'Bảng Điều Khiển'
     )
   );
   appNgModule.config(ModuleConfig);
